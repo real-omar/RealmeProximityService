@@ -32,7 +32,7 @@ import android.util.Log;
 public class InfraredSensor implements SensorEventListener {
     private static final boolean DEBUG = true;
     private static final String TAG = "InfraredSensor";
-    private static final int SENSORID = 33171005; //stk_st2x2x Wakeup
+    private static final int SENSORID = 65626; //stk_st2x2x Wakeup
 
     private static final String PS_STATUS = "/proc/touchpanel/fd_enable";
     private static final String PS_MASK = "/proc/touchpanel/prox_mask";
